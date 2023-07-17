@@ -37,11 +37,11 @@ entry1.pack()
 boton1 = tk.Button(ventana, text = "Agregar", command=agregar_numero)
 boton1.pack()
 
-label2 = tk.Label(ventana, text= " ")
-label2.pack()
+labelinv = tk.Label(ventana, text= " ")
+labelinv.pack()
 
-label3 = tk.Label(ventana, text="Ingrese un numero para buscar:")
-label3.pack()
+label2 = tk.Label(ventana, text="Ingrese un numero para buscar:")
+label2.pack()
 
 entry2 = tk.Entry(ventana)
 entry2.pack()
